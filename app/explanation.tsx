@@ -57,28 +57,28 @@ export default function Explanation() {
             有时间间隔
           </a>
           ，无服务器函数只有在{' '}
-          <em>内容发生变化时</em>才会被调用，这对用户来说更快
+          <em>内容发生变化时 </em>才会被调用，这对用户来说更快
           （他们能立即看到变化），对所有者来说也更具有成本效益。
         </p>
       </details>
 
       <p>
         <em>
-          _💡 Try{' '}
+          💡 你可以尝试{' '}
           <a
             href="https://github.com/ZSCGR/isr/issues/new"
             target="_blank"
             rel="noreferrer"
           >
-            creating a new issue
+            创建新问题（issues）
           </a>{' '}
-          or commenting, and refresh this page to see the regenerated one!_
+           然后刷新此页面以查看重新生成的问题！
         </em>{' '}
-        <br />
+        /*<br />
         <span className={styles.explanation_notes}>
           Pages take about <b>*300ms~*</b> to fully propagate to the global
           Vercel Edge Network after the regeneration completes.
-        </span>
+        </span>*/
       </p>
     </div>
   );
