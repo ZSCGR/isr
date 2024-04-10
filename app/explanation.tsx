@@ -74,11 +74,6 @@ export default function Explanation() {
           </a>{' '}
            然后刷新此页面以查看重新生成的问题！
         </em>{' '}
-        /*<br />
-        <span className={styles.explanation_notes}>
-          Pages take about <b>*300ms~*</b> to fully propagate to the global
-          Vercel Edge Network after the regeneration completes.
-        </span>*/
       </p>
     </div>
   );
