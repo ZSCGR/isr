@@ -82,8 +82,8 @@ export async function setAccessToken() {
 
 export async function fetchIssueAndRepoData() {
   const [issues, repoDetails] = await Promise.all([
-    fetchGitHub('/repos/ZSCGR/on-demand-isr/issues', accessToken),
-    fetchGitHub('/repos/ZSCGR/on-demand-isr', accessToken),
+    fetchGitHub('/repos/ZSCGR/isr/issues', accessToken),
+    fetchGitHub('/repos/ZSCGR/isr', accessToken),
   ]);
 
   console.log('[Next.js] Fetching data for /');
@@ -98,12 +98,12 @@ export async function fetchIssueAndRepoData() {
 
 export async function fetchIssuePageData(id: string) {
   const [issue, comments, repoDetails] = await Promise.all([
-    fetchGitHub(`/repos/ZSCGR/on-demand-isr/issues/${id}`, accessToken),
+    fetchGitHub(`/repos/ZSCGR/isr/issues/${id}`, accessToken),
     fetchGitHub(
-      `/repos/ZSCGR/on-demand-isr/issues/${id}/comments`,
+      `/repos/ZSCGR/isr/issues/${id}/comments`,
       accessToken
     ),
-    fetchGitHub('/repos/ZSCGR/on-demand-isr', accessToken),
+    fetchGitHub('/repos/ZSCGR/isr', accessToken),
   ]);
 
   console.log(`[Next.js] Fetching data for /${id}`);
