@@ -1,5 +1,6 @@
 # Summary
 
+- [测试自动化提交](https://github.com/ZSCGR/isr/issues/8) - 2024-04-11 05:27:34
 - [test](https://github.com/ZSCGR/isr/issues/7) - 2024-04-10 12:57:37
 - [vercel域名](https://github.com/ZSCGR/isr/issues/6) - 2024-04-10 12:37:14
 - [自动更新测试](https://github.com/ZSCGR/isr/issues/5) - 2024-04-10 08:11:39
