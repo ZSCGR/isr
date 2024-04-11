@@ -23,9 +23,13 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - name: Show the timezone
+        run: |
+          echo "The timezone is $TZ"
+          date
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: sync blog
-        uses: zhangwt-cn/blog-archive@main
+        uses: ZSCGR/isr@main
         with:
           api-github-token: ${{ secrets.API_GITHUB_TOKEN }}
           repo: ${{ secrets.REPO }}
