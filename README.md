@@ -1,5 +1,6 @@
 # Summary
 
+- [这个不要同步](https://github.com/ZSCGR/isr/issues/16) - 2024-04-12 12:01:05
 - [这个权限还是有问题](https://github.com/ZSCGR/isr/issues/15) - 2024-04-12 11:53:19
 - [关于本项目的一个说明](https://github.com/ZSCGR/isr/issues/14) - 2024-04-12 07:39:42
 - [我测试下](https://github.com/ZSCGR/isr/issues/13) - 2024-04-12 02:21:00
