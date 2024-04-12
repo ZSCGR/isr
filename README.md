@@ -1,5 +1,6 @@
 # Summary
 
+- [这不会被推送](https://github.com/ZSCGR/isr/issues/21) - 2024-04-12 12:34:41
 - [评论无法实时同步](https://github.com/ZSCGR/isr/issues/20) - 2024-04-12 12:21:44
 - [测试自动部署](https://github.com/ZSCGR/isr/issues/18) - 2024-04-12 12:14:43
 - [标签](https://github.com/ZSCGR/isr/issues/17) - 2024-04-12 12:03:41
